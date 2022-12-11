@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2022 at 10:41 AM
+-- Generation Time: Dec 11, 2022 at 10:43 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.0.14
 
@@ -56,7 +56,6 @@ CREATE TABLE `manager` (
   `fullname` varchar(30) CHARACTER SET utf8 NOT NULL,
   `email` varchar(30) CHARACTER SET utf8 NOT NULL,
   `contact` varchar(30) CHARACTER SET utf8 NOT NULL,
-  `address` varchar(50) CHARACTER SET utf8 NOT NULL,
   `password` varchar(30) CHARACTER SET utf8 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -64,8 +63,8 @@ CREATE TABLE `manager` (
 -- Dumping data for table `manager`
 --
 
-INSERT INTO `manager` (`ID`, `username`, `fullname`, `email`, `contact`, `address`, `password`) VALUES
-(1, 'musmus', 'Kristian', 'kfanuncio2@gmail.com', '09381474797', 'taguig ', '1234567890');
+INSERT INTO `manager` (`ID`, `username`, `fullname`, `email`, `contact`, `password`) VALUES
+(1, 'musmus', 'Kristian', 'kfanuncio2@gmail.com', '09381474797', '1234567890');
 
 -- --------------------------------------------------------
 
